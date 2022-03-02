@@ -67,5 +67,18 @@ mamba create -n datasci python=3.8 nb_conda jupyterlab ipympl nodejs
 
 ## Introduction to the interactive Jupyter notebook environment
 
+```bash
+conda activate datasci
+
+jupyter lab
+
+```
+
+### Install additional package
+
+```bash
+mamba install scikit-bio
+
+```
 
 ## Introduction to Python
